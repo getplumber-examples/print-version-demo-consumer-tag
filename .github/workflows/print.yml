@@ -12,4 +12,4 @@ jobs:
   print:
     runs-on: ubuntu-latest
     steps:
-      - uses: getplumber-examples/print-version-demo@v0.1.0
+      - uses: getplumber-examples/print-version-demo@v1
