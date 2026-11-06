@@ -1,0 +1,15 @@
+name: Print version
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: getplumber-examples/print-version-demo@v0.1.0
