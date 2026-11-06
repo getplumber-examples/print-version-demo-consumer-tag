@@ -1,4 +1,4 @@
-# Stage: fork A
+# Stage: fork B
 version: 2
 updates:
   - package-ecosystem: "github-actions"
